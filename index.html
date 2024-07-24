@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">Junior</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar ()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar ()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar ()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar ()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar ()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar ()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </header>
+    </div>
+    <!-- INICIO -->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/junipro.png" alt="img yo">
+            </div>
+            <h1>JUNIOR GONZALEZ</h1>
+            <H2>Desarrollador de Software</H2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/junior-gonzalezg/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/juniorr_jgg"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+     </section>
+
+     <!-- SOBRE MI  -->
+
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi
+            </h2>
+                <p><span>Hola, soy Junior Gonzalez</span> Autodidacta desde siempre con experiencia en herramientas de
+                    informática, gestión de notebooks/pc de escritorio, con
+                    conocimientos en SQL, Phyton, programación, estructuras de datos,
+                    HTML, JavaScript, CSS, QA,QC y desarrollo web.
+                </p>
+                <div class="fila">
+                    <!-- datos personales -->
+                     <div class="col"> 
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                19-01-2005
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                1167361310
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                javierjuniorgonzalez55@gmail.com
+                            </li>
+                            <li>
+                                <strong>Sitio Web</strong>
+                                www.ejemplo.com
+                            </li>
+                            <li>
+                                <strong>Direccion</strong>
+                                Capital Federal, Barrio Colegiales
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>FREELANCE</span>
+                            </li>
+                        </ul>
+
+                     </div>
+                     <!-- intereses -->
+                      <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-running"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>APRENDER</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-car"></i>
+                                <span>AUTOS</span>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            <button> 
+                <a href="descarga/JUNIOR GONZALEZ.pdf" download="JUNIOR GONZALEZ.pdf" class="cvstyle">Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+            </button>
+        </div>
+     </section>
+
+     <!-- SKILLS -->
+      <section class="skills" id="skills">
+        <div class="contenido seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                 <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>57%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>52%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>22%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>WordPress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>51%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>2%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- Professional Skills -->
+                 <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- CURRICULUM -->
+       <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Escuela Secundaria</h4>
+                        <span class="casa">Rafael Rangel</span>
+                        <span class="fecha">2016 - 2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt ipsum doloremque maxime id. Sapiente repudiandae voluptate quae architecto. Sint voluptate sed quo earum aperiam eius distinctio quidem eum accusamus?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo de Software</h4>
+                        <span class="casa">UADE</span>
+                        <span class="fecha">2022 - 2025</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt ipsum doloremque maxime id. Sapiente repudiandae voluptate quae architecto. Sint voluptate sed quo earum aperiam eius distinctio quidem eum accusamus?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre</span>
+                        <span class="fecha">2016 - 2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt ipsum doloremque maxime id. Sapiente repudiandae voluptate quae architecto. Sint voluptate sed quo earum aperiam eius distinctio quidem eum accusamus?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre</span>
+                        <span class="fecha">2016 - 2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt ipsum doloremque maxime id. Sapiente repudiandae voluptate quae architecto. Sint voluptate sed quo earum aperiam eius distinctio quidem eum accusamus?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- PORTFOLIO -->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="imagenes/portfolio.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="imagenes/portfolio.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="imagenes/portfolio.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+         <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" placeholder="Tú Nombre">
+                        <input type="text" placeholder="Numero telefonico">
+                        <input type="text" placeholder="Direccion de correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- Mapa -->
+                     <div class="col">
+                        <img src="imagenes/ubicacion.jpg" alt="">
+                     </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- FOOTER -->
+          <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+          </footer>
+          <script src="script.js"></script>
+</body>
+
+</html>
