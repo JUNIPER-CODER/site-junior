@@ -16,7 +16,7 @@
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#inicio">Junior</a>
+                <a href="#inicio"><img class="logo1" src="imagenes/logo.png" alt=""></a>
             </div>
             <nav id="nav">
                 <ul>
@@ -40,11 +40,13 @@
                 <img src="imagenes/junipro.png" alt="img yo">
             </div>
             <h1>JUNIOR GONZALEZ</h1>
-            <H2>Desarrollador de Software</H2>
+            <H2>Desarrollador de Software apasionado por crear soluciones innovadoras y eficientes.
+            </H2>
             <div class="redes">
                 <a href="https://www.linkedin.com/in/junior-gonzalezg/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/juniorr_jgg"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="https://github.com/FlakoxGx"><i class="fa-brands fa-github-alt"></i></a>
+                <a href="mailto:juniorprofe24@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
      </section>
@@ -66,7 +68,7 @@
                         <h3>Datos Personales</h3>
                         <ul>
                             <li>
-                                <strong>Cumpleaños</strong>
+                                <strong>Nacimiento</strong>
                                 19-01-2005
                             </li>
                             <li>
@@ -76,10 +78,6 @@
                             <li>
                                 <strong>Email</strong>
                                 javierjuniorgonzalez55@gmail.com
-                            </li>
-                            <li>
-                                <strong>Sitio Web</strong>
-                                www.ejemplo.com
                             </li>
                             <li>
                                 <strong>Direccion</strong>
@@ -152,7 +150,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Photoshop</span>
+                        <span>Python</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>52%</span>
@@ -168,7 +166,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>WordPress</span>
+                        <span>React</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>51%</span>
@@ -176,7 +174,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Drupa</span>
+                        <span>API RESTful</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>2%</span>
@@ -191,7 +189,7 @@
                         <span>Comunicacion</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>80%</span>
+                                <span>100%</span>
                             </div>
                         </div>
                     </div>
@@ -199,7 +197,7 @@
                         <span>Trabajo en equipo</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>85%</span>
+                                <span>100%</span>
                             </div>
                         </div>
                     </div>
@@ -207,7 +205,7 @@
                         <span>Creatividad</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>90%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
@@ -215,7 +213,7 @@
                         <span>Dedicacion</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>70%</span>
+                                <span>100%</span>
                             </div>
                         </div>
                     </div>
@@ -223,7 +221,7 @@
                         <span>Proyect management</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>90%</span>
+                                <span>30%</span>
                             </div>
                         </div>
                     </div>
@@ -321,20 +319,19 @@
                 <div class="fila">
                     <!-- Formulario -->
                     <div class="col">
-                        <input type="text" placeholder="Tú Nombre">
-                        <input type="text" placeholder="Numero telefonico">
-                        <input type="text" placeholder="Direccion de correo">
-                        <input type="text" placeholder="Tema">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                        <button>
-                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                            <span class="overlay"></span>
-                        </button>
+                    <form action="form.php" method="post">
+                        
+                            <input type="text" name="name" placeholder="Tú Nombre" required>
+                            <input type="tel" name="phone" id="phone" placeholder="Numero telefonico" pattern="[0-9]{10}" required>
+                            <input type="email" name="email" placeholder="Direccion de correo" required>
+                            <input type="text" name="subject" placeholder="Tema" required>
+                            <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                            <button type="submit">
+                                Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button>
+                      </form>
                     </div>
-                    <!-- Mapa -->
-                     <div class="col">
-                        <img src="imagenes/ubicacion.jpg" alt="">
-                     </div>
                 </div>
             </div>
          </section>
@@ -345,12 +342,18 @@
                 <i class="fa-solid fa-angles-up"></i>
             </a>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="https://github.com/FlakoxGx"><i class="fa-brands fa-github-alt"></i></a>
+                <a href="https://www.linkedin.com/in/junior-gonzalezg/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:juniorprofe24@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
+            &copy; 2024 Junior Gonzalez. Todos los derechos reservados.
           </footer>
           <script src="script.js"></script>
+          <script>
+            document.getElementById('phone').addEventListener('input', function (event) {
+                this.value = this.value.replace(/\D/g, '');
+            });
+        </script>
 </body>
 
 </html>
